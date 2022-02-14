@@ -4,6 +4,7 @@ public static void main (String args[])
 {
 Test1 obj = new Test1();
 obj.simpleInterest(10000,16,3);
+System.out.println("main method");
 }
 public void simpleInterest(int p, int t, int r)
 {
